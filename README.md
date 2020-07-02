@@ -39,3 +39,5 @@ In the prect, microservice is used for peak time calculation applying machine le
 CI/CD
 Continuous integration and deployment of the developed code are implemented in the project. DevOps tool Jenkins is used for continuous integration and continuous deployment.Amazon web services (AWS) -an online cloud computing platform is used for deployment in this project. The service used to create application servers is EC2 (Amazon Elastic Compute Cloud). EC2 gives secure, resizable computing capacity on the cloud. ALB-Application Load Balancer is included for the load balancing.ALB distributes the incoming traffic across the servers. Security is ensured using the security groups in AWS.
 
+Testing
+Testing is done for the project using JUnit, Mockito.
