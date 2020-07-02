@@ -9,7 +9,7 @@ pipeline {
 stages {
     stage ('Get code') {
         steps {
-        git branch: 'master', url:'https://github.com/nidhin20/OnTheGO.git'
+        git branch: 'master', url:'https://github.com/jithinppl/onthego.git'
         }
     }
     stage ('Build') {
